@@ -1,12 +1,6 @@
-target/
-release.properties
-buildNumber.properties
-.mvn/timing.properties
-
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
-
-# Eclipse IDE files
-.classpath
+build
+.gradle
 .project
-.settings/
+.settings
+.classpath
+bin
