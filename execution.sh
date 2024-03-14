@@ -1,0 +1,3 @@
+docker run --rm -v $PWD/:/project -e ORT_DATA_DIR=/project/.ort -e ORT_CONFIG_DIR=/project ghcr.io/oss-review-toolkit/ort:17.1.0 analyze -i /project -o /project
+docker run --rm -v $PWD/:/project -e /home/lzm2fe/.netrc:/home/ort/.netrc -e ORT_DATA_DIR=/project/.ort -e ORT_CONFIG_DIR=/project ghcr.io/oss-review-toolkit/ort:17.1.0 --debug scan -i /project/analyzer-result.yml -o /project --scanners=FossId
+docker run --rm -v $PWD/:/project -e ORT_DATA_DIR=/project/.ort -e ORT_CONFIG_DIR=/project ghcr.io/oss-review-toolkit/ort:17.1.0 --debug report -f FossId,PlainTextTemplate,StaticHtml,WebApp,SpdxDocument -i /project/scan-result.yml -o /project
