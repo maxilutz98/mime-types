@@ -1,7 +1,7 @@
 analyzer:
   skip_excluded: true
-# excludes:
-#   paths:
-#   - pattern: ".git/**"
-#     reason: "BUILD_TOOL_OF"
-#     comment: "A comment further explaining why the path is excluded."
+excludes:
+  paths:
+  - pattern: ".git/**"
+    reason: "BUILD_TOOL_OF"
+    comment: "A comment further explaining why the path is excluded."
