@@ -1,5 +1,5 @@
-# analyzer:
-#   skip_excluded: true
+analyzer:
+  skip_excluded: true
 # excludes:
 #   paths:
 #   - pattern: ".git/**"
