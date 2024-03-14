@@ -72,7 +72,7 @@ files:
   - SPDXID: "SPDXRef-DoapSource"
     checksums:
       - algorithm: "SHA1"
-        checksumValue: "d057c61912a80b0c9cfe7b42aab26b2ad5f056b7"
+        checksumValue: "e5775e147b0793274e0f52eb8044e21b93fe2943"
     copyrightText: "Copyright 2010, 2011 Source Auditor Inc."
     fileContributors:
       - "Protecode Inc."
